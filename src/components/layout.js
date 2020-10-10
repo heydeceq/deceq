@@ -61,6 +61,13 @@ const TemplateWrapper = ({ children }) => {
                     data.datoCmsHome.introTextNode.childMarkdownRemark.html
                 }}
               />
+              <div
+                className="sidebar__subtitle"
+                dangerouslySetInnerHTML={{
+                  __html:
+                    data.datoCmsHome.introTextNode.childMarkdownRemark.html
+                }}
+              />
               <ul className="sidebar__menu">
                 <li>
                   <Link to="/">Home</Link>
