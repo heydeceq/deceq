@@ -49,3 +49,8 @@ export const query = graphql`
     }
   }
 `
+query {
+  about_page {
+    subtitle
+  }
+}
