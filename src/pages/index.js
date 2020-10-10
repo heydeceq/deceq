@@ -1,13 +1,3 @@
-import * as React from 'react'
-+ import { graphql } from 'gatsby'
-
-const HomePage = () => {
-  return (
-    <div>
-     subtitle
-    </div>
-  )
-}
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Masonry from 'react-masonry-component'
