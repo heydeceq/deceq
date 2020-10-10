@@ -94,6 +94,9 @@ const TemplateWrapper = ({ children }) => {
               <div className="sidebar__copyright">
                 {data.datoCmsHome.copyright}
               </div>
+              <div className="sidebar__subtitle">
+                {data.datoCmsHome.subtitle}
+              </div>
             </div>
           </div>
           <div className="container__body">
