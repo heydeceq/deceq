@@ -1,17 +1,3 @@
-{
-  allDatoCmsModel {
-    edges {
-      node {
-        apiKey
-        name
-        fields {
-          apiKey
-          fieldType
-        }
-      }
-    }
-  }
-}
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Masonry from 'react-masonry-component'
